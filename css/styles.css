@@ -41,7 +41,11 @@
   text-align: center;
   padding: 0 6% !important;
 }
-
+h2 {
+  font-size: 3rem !important;
+  line-height: 1.5 !important ;
+  font-weight: bold !important ;
+}
 h3 {
   font-style: 1.5rem;
   font-weight: bold !important;
@@ -62,4 +66,29 @@ p {
 
 .icon :hover {
   color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background: #ef8172;
+  color: white;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
 }
